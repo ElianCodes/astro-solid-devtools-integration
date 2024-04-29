@@ -1,0 +1,22 @@
+{
+	"name": "solid-devtools-test",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.5.10",
+		"@astrojs/solid-js": "^4.1.0",
+		"astro": "^4.7.0",
+		"typescript": "^5.4.5",
+		"astro-solid-devtools": "workspace:*"
+	},
+	"devDependencies": {
+		"solid-js": "^1.8.17"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "astro-solid-devtools",
+	"version": "1.0.0",
+	"description": "",
+	"exports": {
+		".": "./index.ts"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": {
+		"email": "hello@elian.codes",
+		"name": "Elian Van Cutsem",
+		"url": "https://www.elian.codes"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"astro": "^4.7.0",
+		"astro-integration-kit": "^0.13.1",
+		"solid-devtools": "^0.30.1"
+	}
+}
