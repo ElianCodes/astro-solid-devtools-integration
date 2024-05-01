@@ -7,7 +7,10 @@ export default defineIntegration({
 		return {
 			hooks: {
 				"astro:config:setup": (params) => {
-					addVitePlugin(params, { plugin: devtools({ autoname: true }) });
+					if (params.command === "dev") {
+						addVitePlugin(params, { plugin: devtools({ autoname: true }) });
+						params.injectScript("page", 'import "solid-devtools";');
+					}
 				},
 			},
 		};
